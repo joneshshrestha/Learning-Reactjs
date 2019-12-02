@@ -23,14 +23,28 @@ import ReactDOM from "react-dom";
 //   document.getElementById("root")
 // );
 
-let myName = "Jonesh Shrestha";
-let date = new Date();
-let currentYear = date.getFullYear();
+// let myName = "Jonesh Shrestha";
+// let date = new Date();
+// let currentYear = date.getFullYear();
+
+// ReactDOM.render(
+//   <div>
+//     <p>Created by {myName}</p>
+//     <p>Copyright {currentYear}.</p>
+//   </div>,
+//   document.getElementById("root")
+// );
 
 ReactDOM.render(
   <div>
-    <p>Created by {myName}</p>
-    <p>Copyright {currentYear}.</p>
+    <h1 className="heading" contentEditable="true" spellcheck="false">
+      My Favourite Foods
+    </h1>
+    <ul>
+      <li>Bacon</li>
+      <li>Jamon</li>
+      <li>Noodles</li>
+    </ul>
   </div>,
   document.getElementById("root")
 );
