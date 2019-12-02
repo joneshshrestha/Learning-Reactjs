@@ -14,4 +14,11 @@ import ReactDOM from "react-dom";
 // );
 
 let name = "Jonesh";
-ReactDOM.render(<h1>Hello {name}!</h1>, document.getElementById("root"));
+let luckyNumber = 10;
+ReactDOM.render(
+  <div>
+    <h1>Hello {name}!</h1>
+    <p>Your lucky number is {luckyNumber}</p>
+  </div>,
+  document.getElementById("root")
+);
