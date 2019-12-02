@@ -13,12 +13,24 @@ import ReactDOM from "react-dom";
 //   document.getElementById("root")
 // );
 
-let fname = "Jonesh";
-let lname = "Shrestha";
+// let fname = "Jonesh";
+// let lname = "Shrestha";
+// ReactDOM.render(
+//   <div>
+//     <h1>Hello {fname + " " + lname}!</h1>
+//     <p>Your lucky number is {Math.floor(Math.random() * 10)}</p>
+//   </div>,
+//   document.getElementById("root")
+// );
+
+let myName = "Jonesh Shrestha";
+let date = new Date();
+let currentYear = date.getFullYear();
+
 ReactDOM.render(
   <div>
-    <h1>Hello {fname + " " + lname}!</h1>
-    <p>Your lucky number is {Math.floor(Math.random() * 10)}</p>
+    <p>Created by {myName}</p>
+    <p>Copyright {currentYear}.</p>
   </div>,
   document.getElementById("root")
 );
