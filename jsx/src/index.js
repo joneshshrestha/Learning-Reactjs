@@ -35,16 +35,31 @@ import ReactDOM from "react-dom";
 //   document.getElementById("root")
 // );
 
+const img = "https://picsum.photos/200";
+
 ReactDOM.render(
   <div>
     <h1 className="heading" contentEditable="true" spellcheck="false">
       My Favourite Foods
     </h1>
-    <ul>
-      <li>Bacon</li>
-      <li>Jamon</li>
-      <li>Noodles</li>
-    </ul>
+    <div>
+      <img src={img + "?greyscale"} alt="random" />
+      <img
+        className="food-img"
+        src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&w=1000&q=80"
+        alt="Pizza"
+      />
+      <img
+        className="food-img"
+        src="https://img.taste.com.au/pJyCJHYS/w720-h480-cfill-q80/taste/2016/11/sticky-bacon-wrapped-sausages-72025-1.jpeg"
+        alt="Bacon wrapped sausages"
+      />
+      <img
+        className="food-img"
+        src="https://5.imimg.com/data5/SD/TP/GLADMIN-37906587/chili-chicken-500x500.png"
+        alt="Chicken Chilli"
+      />
+    </div>
   </div>,
   document.getElementById("root")
 );
