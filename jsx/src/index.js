@@ -70,7 +70,7 @@ const customStyle = {
   border: "1px solid black"
 };
 
-customStyle.color = "yellow";
+customStyle.color = " ";
 
 ReactDOM.render(
   <h1 style={customStyle}> Hello World!</h1>,
