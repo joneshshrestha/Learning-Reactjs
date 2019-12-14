@@ -1,17 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Heading from "./Heading";
 
-// ReactDOM.render(
-//   <div>
-//     <h1>My Favorite Foods</h1>
-//     <ul>
-//       <li>Bacon</li>
-//       <li>Noodles</li>
-//       <li>Cheese</li>
-//     </ul>
-//   </div>,
-//   document.getElementById("root")
-// );
+ReactDOM.render(
+  <div>
+    <Heading />
+    <ul>
+      <li>Bacon</li>
+      <li>Noodles</li>
+      <li>Cheese</li>
+    </ul>
+  </div>,
+  document.getElementById("root")
+);
 
 // let fname = "Jonesh";
 // let lname = "Shrestha";
@@ -64,15 +65,15 @@ import ReactDOM from "react-dom";
 //   document.getElementById("root")
 // );
 
-const customStyle = {
-  color: "blue",
-  fontSize: "20 px",
-  border: "1px solid black"
-};
+// const customStyle = {
+//   color: "blue",
+//   fontSize: "20 px",
+//   border: "1px solid black"
+// };
 
-customStyle.color = " ";
+// customStyle.color = " ";
 
-ReactDOM.render(
-  <h1 style={customStyle}> Hello World!</h1>,
-  document.getElementById("root")
-);
+// ReactDOM.render(
+//   <h1 style={customStyle}> Hello World!</h1>,
+//   document.getElementById("root")
+// );
