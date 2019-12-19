@@ -4,3 +4,5 @@ import Heading from "Heading";
 function App() {
   <Heading />;
 }
+
+export default App;
