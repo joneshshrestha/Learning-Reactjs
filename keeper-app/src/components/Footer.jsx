@@ -5,5 +5,11 @@ let date = new Date();
 let year = date.getFullYear();
 
 function Footer() {
-  return <p>copyright {year} Jonesh</p>;
+  return (
+    <footer>
+      <p>copyright {year} Jonesh</p>
+    </footer>
+  );
 }
+
+export default Footer;
