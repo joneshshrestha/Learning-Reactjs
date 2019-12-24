@@ -4,5 +4,7 @@ import Footer from "./Footer";
 import Note from "./Note";
 
 function App() {
-  return Header, Footer, Note;
+  return (<Header />), (<Footer />), (<Note />);
 }
+
+export default App;
